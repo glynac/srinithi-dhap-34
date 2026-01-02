@@ -1,0 +1,57 @@
+table: public.non_classes_dataset_list
+
+primary_key:
+  - dataset_code
+
+columns:
+  - name: dataset_code
+    type: integer
+    nullable: false
+
+  - name: dataset_name
+    type: text
+    nullable: false
+
+  - name: link
+    type: text
+    nullable: true
+
+  - name: description
+    type: text
+    nullable: true
+
+  - name: comments
+    type: text
+    nullable: true
+
+  - name: author
+    type: text
+    nullable: true
+
+  - name: is_conversation_like
+    type: text
+    nullable: true
+
+  - name: ai_generated
+    type: text
+    nullable: true
+
+  - name: comments_on_relevance
+    type: text
+    nullable: true
+
+  - name: analysis_author
+    type: text
+    nullable: true
+
+  - name: analysis_author2
+    type: text
+    nullable: true
+
+  - name: analysis_status
+    type: text
+    nullable: true
+
+  - name: analysis_status2
+    type: text
+    nullable: true
